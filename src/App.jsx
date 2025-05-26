@@ -43,7 +43,7 @@ return (
 
 />} />
 
-<Route path="/usuarios" element={usuario ? <Usuarios /> : <Navigate
+<Route path="/usuarios" element={usuario ? <Usuario /> : <Navigate
 
 to="/login" />} />
 
