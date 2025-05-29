@@ -12,6 +12,7 @@ import Favoritos from './componentes/favoritos';
 import Usuario from './componentes/usuario';
 import Pokemon from './componentes/pokemon';
 import Login from './componentes/login';
+import Registro from './componentes/registro';
 
 function App() {
 const [usuario, setUsuario] = useState(null);
@@ -64,6 +65,9 @@ to="/login" />} />
 <Navigate to="/login" />} />
 
 <Route path="/login" element={<Login/>} />
+
+<Route path="/registro" element={<Registro/>} />
+
 </Routes>
 </Router>
 </AppProvider>
